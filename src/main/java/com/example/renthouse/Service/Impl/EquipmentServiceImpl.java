@@ -36,8 +36,8 @@ public class EquipmentServiceImpl implements EquipmentService {
     @Override
     public Equipment updateEquipment(EquipmentRequest equipmentRequest, Long id) {
 
-        Equipment equipment = equipmentRepository.findById(id)
-                .orElseThrow()
+       // Equipment equipment = equipmentRepository.findById(id)
+           //     .orElseThrow()
         return null;
     }
 }
